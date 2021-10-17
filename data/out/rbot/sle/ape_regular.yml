@@ -1,0 +1,49 @@
+%YAML:1.0
+################
+# common vars
+################
+undistort_frame: 0
+unit_model: 1
+prev_gt: 0
+timeout: 1
+target_frame: 1
+alpha_fg: 0.1
+alpha_bg: 0.2
+
+fx: 650.048
+fy: 647.183
+cx: 324.328
+cy: 257.323
+
+zn: 1
+zf: 4000
+
+line_len: 16
+sl_seg: 2
+
+hist_offset: 100
+hist_rad: 40
+search_rad: 25
+
+show_result: 0
+bench_mode: 1
+# rbot 0, slet 1, slct 2, slft 3
+tracker_mode: 1
+
+#gt_pose_file: "data/rbot/gt_pose.txt"
+
+################
+# input
+################
+gt_pose_file: "D:/dataset/rbot/gt_pose.txt"
+model_file: ["D:/dataset/rbot/smodel/ape.obj"]
+frames: "D:/dataset/rbot/frame/ape_regular"
+################
+# output
+################
+tk_pose_file: "data/out/rbot/sle/ape_regular.tk"
+result_video_file: "data/out/rbot/sle/ape_regular_tk.avi"
+result_img_dir: "data/out/rbot/sle/ape_regular"
+err_file: "data/out/rbot/sle/ape_regular.err"
+fps_file: "data/out/rbot/sle/ape_regular.fps"
+report_file: "data/out/rbot/sle/_report.txt"
