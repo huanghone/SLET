@@ -12,6 +12,15 @@ We propose an edge-based method for 6DOF pose tracking of rigid objects using a 
 * **An Occlusion-aware Edge-Based Method for Monocular 3D Object Tracking using Edge Confidence**
 *Hong Huang, Fan Zhong, Xueying Qin*, PG '20
 
+If you use PL-SVO in your research work, please cite:
+
+	@article{Huang2020,
+		AUTHOR  = {Hong Huang and Fan Zhong and Yuqing Sun and Xueying Qin},
+		TITLE   = {An occlusion‐aware edge‐based method for monocular 3D object tracking using edge confidence},
+		JOURNAL = "Computer Graphics Forum",
+		VOLUME  = {39}, NUMBER = {7},
+		YEAR    = {2020},	PAGES = {399-409},
+	}
 
 # Dependencies
 
