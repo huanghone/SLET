@@ -47,7 +47,7 @@ For the best performance when using your own 3D models, please **ensure that eac
 
 # Dataset
 
-To test the algorithm you can for example use the corresponding dataset available for download at: http://cvmr.mi.hs-rm.de/research/RBOT/
+To test the algorithm you can for example use the corresponding dataset available for download at: https://github.com/huanghone/RBOTE
 
 
 # License
